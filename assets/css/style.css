@@ -36,16 +36,19 @@ header a {
 li {
     list-style: none;
 }
-header nav {
-    margin: 7px 0;
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
 }
-header nav ul li {
-    display: inline;
-}
+
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 footer {
     background: #fce138;
